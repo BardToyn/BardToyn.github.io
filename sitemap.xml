@@ -4,36 +4,21 @@
 <url>
 	<loc>https://bardtoyn.github.io/</loc>
 	<lastmod>2023-06-24T23:40:40+01:00</lastmod>
-	<priority>0.6</priority>
+	<priority>0.1</priority>
 </url>
 <url>
-	<loc>https://bardtoyn.github.io/Lionic/</loc>
+	<loc>https://bardtoyn.github.io/about</loc>
 	<lastmod>2023-06-24T23:40:40+01:00</lastmod>
-	<priority>0.6</priority>
+	<priority>0.3</priority>
 </url>
 <url>
-	<loc>https://bardtoyn.github.io/temluche.portfolio/</loc>
+	<loc>https://bardtoyn.github.io/work</loc>
 	<lastmod>2023-06-24T23:40:40+01:00</lastmod>
-	<priority>0.8</priority>
+	<priority>0.2</priority>
 </url>
 <url>
-	<loc>https://bardtoyn.github.io/temluche.portfolio/pages/about.html</loc>
-	<lastmod>2023-06-24T23:40:42+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://bardtoyn.github.io/temluche.portfolio/pages/allphoto.html</loc>
-	<lastmod>2023-06-24T23:40:42+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://bardtoyn.github.io/temluche.portfolio/pages/contact.html</loc>
-	<lastmod>2023-06-24T23:40:42+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://bardtoyn.github.io/temluche.portfolio/index.html</loc>
-	<lastmod>2023-06-24T23:40:45+01:00</lastmod>
-	<priority>0.8</priority>
+	<loc>https://bardtoyn.github.io/contact</loc>
+	<lastmod>2023-06-24T23:40:40+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 </urlset>
