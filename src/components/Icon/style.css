@@ -1,0 +1,35 @@
+.icon-wrapper {
+    position: fixed;
+    right: 0;
+    top: 43%;
+    display: var(--flex);
+    flex-direction: var(--column);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 10;
+    background-color: var(--grey-bg);
+}
+
+.icon-link {
+    margin: 10px 10px 0;
+}
+
+.icon-link:last-child {
+    margin-bottom: 10px;
+}
+
+.icon-img {
+    width: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.icon-img:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}

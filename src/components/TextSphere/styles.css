@@ -1,0 +1,44 @@
+.text-shpere {
+    position: relative;
+    top: 0;
+    width: 45%;
+    height: 70vh;
+    display: var(--flex);
+    justify-content: center;
+    align-items: center;
+}
+
+.tagcloud {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.tagcloud:not(:last-child) {
+    display: var(--none);
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item {
+    color: var(--red);
+    text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+    color: var(--drk-red);
+}
+
+@media screen and (max-width: 1024px) {
+    .text-shpere {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .text-shpere {
+        display: none;
+    }
+}

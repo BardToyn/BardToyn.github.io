@@ -1,0 +1,85 @@
+.hero {
+    padding: 5% 8%;
+    height: 85vh;
+    display: var(--flex);
+    align-items: var(--cntr);
+    justify-content: var(--space-bt);
+}
+
+.hero-name {
+    margin-top: 15px;
+    color: var(--red);
+}
+
+.hero-heading {
+    color: var(--drk-red);
+}
+
+.hero-text {
+    max-width: 60%;
+    margin: 25px 0;
+}
+
+.hero-btn {
+    padding: 16px 26px;
+    font-family: 'Fira Code';
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white);
+    background-color: var(--trans-red);
+    border: 1px solid var(--red);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        padding: 0 10%;
+    }
+
+    .heading {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-btn:hover {
+        transform: var(--none);
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero {
+        height: 100vh;
+    }
+
+    .heading {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-btn-wrap {
+        flex-direction: var(--column);
+    }
+    
+    .hero-btn-wrap form:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero-btn {
+        width: 100%;
+    }
+}
